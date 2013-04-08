@@ -4,7 +4,7 @@
 <anmeldung xmlns="www.bliblablup/anmeldung.de">
 
 <gruppenleiter>
-  <gruppe>
+	<gruppe>
 		<gruppenleiter Vorname="" Nachname="" Email="" Geburtsdatum="" Erfahrung="" Schlagzeug="">
 			<Anmerkung>Wichtig für meine Gruppe ist...</Anmerkung>
 		</gruppenleiter>
