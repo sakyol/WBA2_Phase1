@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Rezepte">
+	<xs:complexType>
+	  <xs:sequence>
+        <xs:element name="Rezept" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Titel"/>
+                <xs:element name="Bild">
+                  <xs:complexType>
+                   <xs:sequence>
+                     <xs:element name="Bilder" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                       <xs:sequence>
+                        <xs:element type="xs:string" name="User"/>
+                        <xs:element type="xs:string" name="URL"/>
+                       </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+          <xs:element name="Zutaten">
+             <xs:complexType>
+                <xs:sequence>
+                   <xs:element name="Zutat" maxOccurs="unbounded" minOccurs="0">
+                     <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:int" name="Menge"/>
+                          <xs:element type="xs:string" name="Einheit"/>
+                          <xs:element type="xs:string" name="Name"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                <xs:attribute name="Portionen">
+              <xs:simpleType>
+			    <xs:restriction base="xs:integer">
+				   <xs:minInclusive value="0"/>
+				   <xs:maxInclusive value="100"/>
+				 </xs:restriction>
+			  </xs:simpleType>
+		   </xs:attribute>
+		   </xs:complexType>
+		   </xs:element>
+				<xs:element type="xs:string" name="Titel2"/>
+       		    <xs:element type="xs:double" name="Arbeitszeit"/>
+       		    <xs:element type="xs:string" name="Schwierigkeitsgrad"/>
+       		    <xs:element type="xs:double" name="Brennwert"/>
+                <xs:element type="xs:string" name="Zubereitung"/>
+                <xs:element name="Kommentare">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="Kommentar" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element type="xs:string" name="name"/>
+                       		<xs:element type="xs:string" name="Bild"/>
+				 	  	    <xs:element type="xs:string" name="Datum"/>
+					        <xs:element type="xs:string" name="Nachricht"/>
+					      </xs:sequence>
+			            </xs:complexType>
+				      </xs:element>
+		   	        </xs:sequence>
+		       	  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+  	      </xs:element>
+        </xs:schema>

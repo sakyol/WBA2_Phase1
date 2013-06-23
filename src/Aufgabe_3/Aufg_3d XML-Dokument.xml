@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Rezepte>
+	<Rezept>
+		
+		<Titel></Titel>
+			
+			<Bild>
+				<Bilder>
+					<User></User>
+					<URL></URL>
+				</Bilder>
+			</Bild>
+	</Rezept>
+  
+  <Zutaten>
+		<Zutat>
+			<Menge></Menge>
+     	    <Einheit></Einheit>
+            <Name></Name>
+  	    </Zutat>
+  </Zutaten>
+  
+  <Titel2></Titel2>
+  <Arbeitszeit></Arbeitszeit>
+  <Schwierigkeitsgrad></Schwierigkeitsgrad>
+  <Brennwert></Brennwert>
+  <Zubereitung></Zubereitung>
+ 
+  <Kommentare>
+		<Kommentar>
+     		 <name></name>
+             <Bild></Bild>
+      	     <Datum></Datum>
+             <Nachricht></Nachricht>
+        </Kommentar>
+  </Kommentare>
+</Rezepte>
+   
+   <<!-- 1.Datensatz -->
+   
+   <Rezepte>
+	<Rezept>
+		
+		<Titel>Schokomuffins</Titel>
+			
+			<Bild>
+				<Bilder>
+					<User>dieter</User>
+					<URL>www.dsdsdfsdf.dfds</URL>
+				</Bilder>
+			</Bild>
+	</Rezept>
+  
+  <Zutaten>
+		<Zutat>
+			<Menge>200</Menge>
+     	    <Einheit>g</Einheit>
+            <Name>Schokolade</Name>
+  	    </Zutat>
+  </Zutaten>
+  
+    <Zutaten>
+		<Zutat>
+			<Menge>100</Menge>
+     	    <Einheit>g</Einheit>
+            <Name>Mehl</Name>
+  	    </Zutat>
+  </Zutaten>
+  
+  <Titel2>Zubereitung</Titel2>
+  <Arbeitszeit>10</Arbeitszeit>
+  <Schwierigkeitsgrad>einfach</Schwierigkeitsgrad>
+  <Brennwert>500</Brennwert>
+  <Zubereitung>Zunächst....</Zubereitung>
+ 
+  <Kommentare>
+		<Kommentar>
+     		 <name>maus</name>
+             <Bild>www.sdfsdfsvdfg.asd</Bild>
+      	     <Datum>10.07.1976</Datum>
+             <Nachricht>Bla Bla</Nachricht>
+        </Kommentar>
+  </Kommentare>
+</Rezepte>
+   
+
+   <<!-- 1.Datensatz -->
+   
+   <Rezepte>
+	<Rezept>
+		
+		<Titel>Tortellini</Titel>
+			
+			<Bild>
+				<Bilder>
+					<User>thomas</User>
+					<URL>www.dsdsdfsdf.dfds</URL>
+				</Bilder>
+			</Bild>
+	</Rezept>
+  
+  <Zutaten>
+		<Zutat>
+			<Menge>100</Menge>
+     	    <Einheit>g</Einheit>
+            <Name>Mehl</Name>
+  	    </Zutat>
+  </Zutaten>
+  
+    <Zutaten>
+		<Zutat>
+			<Menge>200</Menge>
+     	    <Einheit>g</Einheit>
+            <Name>Spinat</Name>
+  	    </Zutat>
+  </Zutaten>
+  
+  <Titel2>Zubereitung</Titel2>
+  <Arbeitszeit>30</Arbeitszeit>
+  <Schwierigkeitsgrad>mittel</Schwierigkeitsgrad>
+  <Brennwert>725</Brennwert>
+  <Zubereitung>Erst den Teig</Zubereitung>
+ 
+  <Kommentare>
+		<Kommentar>
+     		 <name>clown</name>
+             <Bild>www.sdfsdfsvdfewwreg.asd</Bild>
+      	     <Datum>23.11.1974</Datum>
+             <Nachricht>Hu Hu...</Nachricht>
+        </Kommentar>
+  </Kommentare>
+</Rezepte>
